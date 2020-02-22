@@ -9,7 +9,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
-    "lint": "eslint"
+    "lint": "eslint ./src/**/*"
   },
   "devDependencies": {
     "@babel/core": "7.8.4",
@@ -39,6 +39,8 @@
     "webpack-dev-server": "3.10.3"
   },
   "dependencies": {
+    "@material-ui/core": "4.9.3",
+    "@material-ui/icons": "4.9.1",
     "react": "16.12.0",
     "react-dom": "16.12.0"
   }
